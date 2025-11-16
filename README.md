@@ -1,0 +1,5 @@
+This repository contains my implementation of a basic Ride Sharing System developed in both Smalltalk (Pharo) and C++. The goal of this project is to demonstrate my understanding of object-oriented programming principles such as encapsulation, inheritance, and polymorphism using two different programming languages. Each version of the system includes classes for travel plans, riders, and drivers, along with the ability to calculate ride costs and display trip information.
+
+To run the C++ version, I simply compile the program using any standard C++ compiler such as MinGW-w64, GCC, or Visual Studio. After compiling the main file, the executable can be launched from the terminal, and the full trip summary prints directly to the console. This shows the calculated ride costs for both Standard and Premium ride types, which demonstrates polymorphism in action.
+
+The Smalltalk version runs inside Pharo 12. After opening Pharo, I load my RideSystem package and execute the test script inside a Playground window. When I run the script, the results appear in the Transcript, showing the driver information and the complete list of rides.
